@@ -1,0 +1,11 @@
+body,
+p {
+  background-color: rgb(50, 73, 38);
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  color: rgb(205, 188, 156);
+}
+P {
+  color: rgb(240, 239, 237);
+  font-weight: thin;
+}
