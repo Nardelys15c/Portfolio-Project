@@ -1,11 +1,56 @@
-body,
-p {
-  background-color: rgb(50, 73, 38);
-  font-family: "Raleway", sans-serif;
-  font-weight: bolder;
-  color: rgb(205, 188, 156);
+:root {
+  --branding-color: rgb(115, 144, 95);
+  --secondary-color: rgb(94, 130, 75);
+  --heading-font-family: "Raleway", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
 }
-P {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: rgb(240, 239, 237);
-  font-weight: thin;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+p {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  color: rgb(240, 239, 237);
+}
+h1 {
+  font-size: 75px;
+}
+.btn-branding {
+  color: rgb(240, 239, 237);
+  background-color: var(--branding-color);
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+.btn-branding:hover {
+  background-color: rgb(240, 239, 237);
+  color: var(--secondary-color);
+  border-color: rgb(239, 224, 194);
+}
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 36px;
+}
+.hero h2 {
+  font-family: var(--secondary-color);
+  font-weight: normal;
+  font-size: 22px;
+}
+.fa-instagram {
+  color: rgb(240, 239, 237);
 }
